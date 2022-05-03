@@ -19,7 +19,7 @@ full join titles
 on employees.emp_no =titles.emp_no
 into emp_titles;
 
--- where birth_date >= 1952-01-01 and  bith_date <= 1955-12-31;
+where birth_date >= 1952-01-01 and  bith_date <= 1955-12-31;
 
 
 into emp_titles
