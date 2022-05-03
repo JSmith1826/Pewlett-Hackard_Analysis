@@ -43,3 +43,23 @@ select count(title), title
 from retirement_titles
 group by title
 order by count(title) desc;
+
+
+drop table mentor
+
+--Create Mentor Table 
+select DISTINCT on (e.emp_no)
+e.emp_no, e.first_name, e.last_name, e.birth_date,
+d.from_date, d.to_date,
+t.title
+into mentor
+from employees as e
+inner join titles as t 
+on e.emp_no = t.emp_no
+inner join dept_emp as d 
+on e.emp_no = d.emp_no
+WHERE d.to_date = '9999-01-01' 
+AND (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY e.emp_no asc
+
+select * from mentor
