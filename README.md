@@ -8,19 +8,19 @@ The purpose of this project was to analysis the employee database from the Pewle
 ## Results
 The first figure is the ERD (Entity Relationship Diagram) we created to visualize the relationships of the data contained in the company database. As you can see the data we were given was contained in six separate tables. By defining primary and foreign keys in each table we were able to 'connect the dots' in order to extract all of the relevant information about each employee.
 
-![ERD](/EmployeeDB.png)
+![ERD](/images/EmployeeDB.png)
 
 
 ### Future Hire Projections
 This figure holds a count of the job titles of employees nearing retirement. This view will help the HR department start to plan for recruiting and hiring new people to fill these roles.
 
-![Retiring Titles](/retiring_titles.png)
+![Retiring Titles](/images/retiring_titles.png)
 
 
 ### Mentorship Candidates
 This figure shows employees who we believe are prime candidates for the mentorship program Pewlett Hackard is implementing. Because of the length of the list this is simply a sample of the data for the full table please reference mentorship_eligibility.csv in the data folder.
 
-![Mentorship Top](/mentor_head.png)
+![Mentorship Top](/images/mentor_head.png)
 
 
 ## Summary
